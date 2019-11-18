@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource"
+    android:layout_weight="10">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/text01"
+            android:layout_width="match_parent"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="单词"
+            android:gravity="start|left"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/key"
+            android:layout_width="match_parent"
+            android:layout_weight="9"
+            android:paddingRight="10dp"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/text02"
+            android:layout_width="match_parent"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:gravity="start|left"
+            android:paddingLeft="10dp"
+            android:text="释义"
+            android:textSize="20sp" />
+
+        <EditText
+        android:id="@+id/txtMeaning"
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:paddingRight="10dp"
+        />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/text03"
+            android:layout_width="match_parent"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:gravity="start|left"
+            android:paddingLeft="10dp"
+            android:text="例句"
+            android:textSize="20sp"
+            />
+
+    <EditText
+        android:id="@+id/txtExample"
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:paddingRight="10dp"
+        />
+    </TableRow>
+</TableLayout>
