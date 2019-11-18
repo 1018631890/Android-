@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name1">ActivityOne</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="text1">Hello World</string>
+    <string name="C">C语言</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="t2">请选择学过的语言</string>
+    <string name="app_name">简易计算器</string>
+    <string name="bt1">AC</string>
+    <string name="bt2">Back</string>
+    <string name="bt3">7</string>
+    <string name="bt4">8</string>
+    <string name="bt5">9</string>
+    <string name="bt6">*</string>
+    <string name="bt7">4</string>
+    <string name="bt8">5</string>
+    <string name="bt9">6</string>
+    <string name="bt10">-</string>
+    <string name="bt11">1</string>
+    <string name="bt12">2</string>
+    <string name="bt13">3</string>
+    <string name="bt14">+</string>
+    <string name="bt15">0</string>
+    <string name="bt16">.</string>
+    <string name="bt17">=</string>
+    <string name="bt18">/</string>
+    <string name="bt19">+/-</string>
+    <string name="bt20">(</string>
+    <string name="bt21">)</string>
+    <string name="bt22">sin</string>
+    <string name="bt23">cos</string>
+    <string name="bt24">#2</string>
+    <string name="bt25">#8</string>
+    <string name="bt26">#10</string>
+    <string name="bt27">#16</string>
+    <string name="defaultText">输入算式进行计算</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="help">help</string>
+    <string name="bt28">L→</string>
+    <string name="bt29">L←</string>
+    <string name="bt30">V→</string>
+    <string name="bt31">V←</string>
+</resources>

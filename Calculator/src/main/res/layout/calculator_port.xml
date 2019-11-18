@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="10"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <Button
+        android:id="@+id/bte1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="@string/bt1"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bte2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:text="@string/bt2"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bte18"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="7"
+        android:layout_column="3"
+        android:text="@string/bt18"
+        android:textColor="#070000" />
+
+    <Button
+        android:id="@+id/bte4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:text="@string/bt4"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bte3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:text="@string/bt3" />
+
+    <Button
+        android:id="@+id/bte5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:text="@string/bt5" />
+
+    <Button
+        android:id="@+id/bte6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="6"
+        android:layout_column="3"
+        android:text="@string/bt6"
+        android:textColor="#070000" />
+
+    <Button
+        android:id="@+id/bte7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:text="@string/bt7" />
+
+    <Button
+        android:id="@+id/bte8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:text="@string/bt8" />
+
+    <Button
+        android:id="@+id/bte9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="6"
+        android:layout_column="2"
+        android:text="@string/bt9" />
+
+    <Button
+        android:id="@+id/bte10"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="5"
+        android:layout_column="3"
+        android:text="@string/bt10"
+        android:textColor="#070000" />
+
+    <Button
+        android:id="@+id/bte11"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:text="@string/bt11" />
+
+    <Button
+        android:id="@+id/bte12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:text="@string/bt12" />
+
+    <Button
+        android:id="@+id/bte13"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="7"
+        android:layout_column="2"
+        android:text="@string/bt13" />
+
+    <Button
+        android:id="@+id/bte14"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:text="@string/bt14"
+        android:textColor="#070000" />
+
+    <Button
+        android:id="@+id/bte15"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="@string/bt15" />
+
+    <Button
+        android:id="@+id/bte16"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="8"
+        android:layout_column="2"
+        android:text="@string/bt16" />
+
+    <Button
+        android:id="@+id/bte17"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="8"
+        android:layout_column="3"
+        android:text="@string/bt17"
+        android:textColor="#070000" />
+
+    <Button
+        android:id="@+id/bte19"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:text="@string/bt19" />
+
+    <Button
+        android:id="@+id/bte20"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="@string/bt20"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte21"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:text="@string/bt21"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte22"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="@string/bt22"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte23"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:text="@string/bt23"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte24"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="@string/bt24"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte25"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:text="@string/bt25"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte26"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="@string/bt26"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte27"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:text="@string/bt27"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bte28"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="@string/bt28" />
+
+    <Button
+        android:id="@+id/bte29"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:text="@string/bt29" />
+
+    <Button
+        android:id="@+id/bte30"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="@string/bt30" />
+
+    <Button
+        android:id="@+id/bte31"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:text="@string/bt31" />
+
+    <TextView
+        android:id="@+id/View"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:background="#0E081A"
+        android:gravity="center_vertical|end"
+        android:text="@string/defaultText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E8ECEB" />
+
+</GridLayout>
